@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.thechoyon.chatapp.SignUpActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:id="@+id/email1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/pass1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/retype_password"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:id="@+id/pass2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:id="@+id/signUpStart"
+        android:text="@string/get_in"/>
+
+
+</LinearLayout>

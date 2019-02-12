@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1086393657855",
+    "firebase_url": "https://chat-app-7ed5f.firebaseio.com",
+    "project_id": "chat-app-7ed5f",
+    "storage_bucket": "chat-app-7ed5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086393657855:android:66138b2d132ff619",
+        "android_client_info": {
+          "package_name": "me.thechoyon.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086393657855-43kdfq3m7hh133a3nakmbuj9as1k53a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.thechoyon.chatapp",
+            "certificate_hash": "24b99609d40865a1e6bf82d4f284a388956c672e"
+          }
+        },
+        {
+          "client_id": "1086393657855-8j1vsrsc7hnbsa6ur4iqe7l8cqpqn3g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_4RSIERlejhMx49C3WmtZv_kSwBWJYow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086393657855-8j1vsrsc7hnbsa6ur4iqe7l8cqpqn3g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.thechoyon.chatapp.ChatMain">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/chat_msg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/chat_msg_reply"/>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/mylistview"
+        android:layout_height="300dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="bottom"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:textSize="20sp"
+            android:maxLines="4"
+            android:id="@+id/msg_body_1"
+            android:hint="@string/say_hello_to_your_friend"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_msg"
+            android:textSize="20sp"
+            android:layout_gravity="end"
+            android:text="@string/send_msg"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+<!--/ScrollView-->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.thechoyon.chatapp.ChatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/intro_user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#1996b6"
+        android:textStyle="bold"
+        android:id="@+id/user"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/get_id"
+        android:text="@string/copy_id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/intro"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mail_id"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="@string/mail_hint"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/start_chat"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="@string/start_chat"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
